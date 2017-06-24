@@ -13,7 +13,7 @@ Rename the script to the same name of your `.ps1` file and put it in the same fo
 - When running from Windows Explorer, pauses the script execution in case of error (allows you to see the error message).
   - Doesn't pause when called directly from a `cmd` prompt.
 
-Please see the `samples` folder. Run `error.cmd` double-clicking it from Windows Explorer. 
+Please see the `Samples` folder. Try to run `Hello.cmd` and `Error.cmd` double-clicking it from Windows Explorer. Then run them again from command prompt.
 
 ```
 C:\samples>hello
@@ -26,6 +26,6 @@ C:\samples>error
 Something bad happened!
 
 C:\samples>echo %ERRORLEVEL%
-1
+3
 ```
 

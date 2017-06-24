@@ -1,2 +1,2 @@
 Write-Host "Something bad happened!" 
-exit 1
+exit 3
