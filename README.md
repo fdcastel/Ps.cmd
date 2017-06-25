@@ -1,15 +1,20 @@
 # Ps.cmd
 
-A `.cmd` wrapper for PowerShell scripts.
+A batch file wrapper for PowerShell scripts.
+
+## Why ?
+
+After I had written dozens of wrappers like this one (and each time losing my hair again and again debugging paths, error codes or why the damn thing didn't work when called from Task Scheduler) I decided to write the "last" one to rule them all.
 
 ## Usage
 
-Rename the script to the same name of your `.ps1` file and put it in the same folder.
+Rename the `Ps.cmd` script to the same name of your `.ps1` file and put it in the same folder.
 
 ## Features
 
 - Bypass execution policy.
 - Preserves ERRORLEVEL returned from Powershell script.
+- Works with Windows Task Scheduler
 - When running from Windows Explorer, pauses the script execution in case of error (allows you to see the error message).
   - Doesn't pause when called directly from a `cmd` prompt.
 
@@ -29,3 +34,6 @@ C:\samples>echo %ERRORLEVEL%
 3
 ```
 
+## A Plea
+
+Please, don't use `.bat` extension for your `cmd.exe` scripts.
