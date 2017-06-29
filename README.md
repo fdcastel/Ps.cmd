@@ -14,6 +14,7 @@ Rename the `Ps.cmd` script to the same name of your `.ps1` file and put it in th
 
 - Bypass execution policy.
 - Preserves ERRORLEVEL returned from Powershell script.
+- Works with "Run as administrator"
 - Works with Windows Task Scheduler
 - When running from Windows Explorer, pauses the script execution in case of error (allows you to see the error message).
   - Doesn't pause when called directly from a `cmd` prompt.
