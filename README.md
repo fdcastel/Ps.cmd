@@ -13,6 +13,7 @@ Rename the `Ps.cmd` script to the same name of your `.ps1` file and put it in th
 ## Features
 
 - Bypass execution policy.
+- Pass command-line arguments to Powershell script.
 - Preserves ERRORLEVEL returned from Powershell script.
 - Works with "Run as administrator"
 - Works with Windows Task Scheduler
@@ -23,7 +24,10 @@ Please see the `Samples` folder. Try to run `Hello.cmd` and `Error.cmd` double-c
 
 ```
 C:\samples>hello
-Hello world
+Hello, world!
+
+C:\samples>hello mom
+Hello, mom!
 
 C:\samples>echo %ERRORLEVEL%
 0

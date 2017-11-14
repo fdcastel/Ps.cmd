@@ -1,1 +1,3 @@
-Write-Output 'Hello world'
+Param([string]$greeting = 'world')
+
+Write-Output "Hello, $greeting!"
