@@ -10,6 +10,8 @@ After I had written dozens of wrappers like this one (and each time losing my ha
 
 Rename the `Ps.cmd` script to the same name of your `.ps1` file and put it in the same folder.
 
+Alternatively, you may use `Ps-Map-Switches.cmd` if you need to replace every `/` for `-` in your `.ps1` call.
+
 ## Features
 
 - Bypass execution policy.
