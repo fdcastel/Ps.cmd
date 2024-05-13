@@ -1,4 +1,5 @@
 try {
+    $host.ui.RawUI.WindowTitle = '%~dpn0.ps1';
     & '%~dpn0.ps1' %*;
     $err = -not $?
 }
